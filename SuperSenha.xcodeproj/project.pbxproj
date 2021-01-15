@@ -15,6 +15,7 @@
 		961E2BDF21B45BD500996787 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E2BDE21B45BD500996787 /* PasswordsViewController.swift */; };
 		961E2BE121B45CCB00996787 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E2BE021B45CCB00996787 /* SecurityTipsViewController.swift */; };
 		961E2BE321B45D2F00996787 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E2BE221B45D2F00996787 /* PasswordGenerator.swift */; };
+		9693344825B1D7CF0094E379 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9693344725B1D7CF0094E379 /* DB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		961E2BDE21B45BD500996787 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
 		961E2BE021B45CCB00996787 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
 		961E2BE221B45D2F00996787 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		9693344725B1D7CF0094E379 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				961E2BCC21B4540B00996787 /* AppDelegate.swift */,
 				961E2BCE21B4540B00996787 /* ViewController.swift */,
 				961E2BD021B4540B00996787 /* Main.storyboard */,
+				9693344725B1D7CF0094E379 /* DB.swift */,
 				961E2BE221B45D2F00996787 /* PasswordGenerator.swift */,
 				961E2BE021B45CCB00996787 /* SecurityTipsViewController.swift */,
 				961E2BDE21B45BD500996787 /* PasswordsViewController.swift */,
@@ -149,6 +152,7 @@
 				961E2BDF21B45BD500996787 /* PasswordsViewController.swift in Sources */,
 				961E2BE321B45D2F00996787 /* PasswordGenerator.swift in Sources */,
 				961E2BCD21B4540B00996787 /* AppDelegate.swift in Sources */,
+				9693344825B1D7CF0094E379 /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

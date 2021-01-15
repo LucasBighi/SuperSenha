@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var swCapitalLetters: UISwitch!
     @IBOutlet weak var swSpecialCharacters: UISwitch!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -34,14 +33,12 @@ class ViewController: UIViewController {
         passwordsViewController.useNumbers = swNumbers.isOn
         passwordsViewController.useCapitalLetters = swCapitalLetters.isOn
         passwordsViewController.userSpecialCharacters = swSpecialCharacters.isOn
+        passwordsViewController.mustShowStoredPasswords = segue.identifier == "storedPasswordsSegue"
         view.endEditing(true)
     }
     
     @IBAction func showMyPasswords(_ sender: Any) {
-        present(UIAlertController(title: "Em Construção", message: "Não implementado ainda", preferredStyle: .alert), animated: true, completion: nil)
+        
     }
-    
-
-
 }
 
